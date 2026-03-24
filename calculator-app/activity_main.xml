@@ -1,0 +1,120 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;LinearLayout
+xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;
+android:id=&quot;@+id/main&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;match_parent&quot;
+android:orientation=&quot;vertical&quot;
+android:background=&quot;#1E1E2F&quot;
+android:padding=&quot;16dp&quot;&gt;
+&lt;!-- Header --&gt;
+&lt;LinearLayout
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:orientation=&quot;horizontal&quot;
+android:gravity=&quot;center_vertical&quot;&gt;
+&lt;ImageView
+android:layout_width=&quot;50dp&quot;
+android:layout_height=&quot;50dp&quot;
+android:src=&quot;@drawable/kiit&quot;
+android:contentDescription=&quot;KIIT Logo&quot;/&gt;
+&lt;LinearLayout
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:orientation=&quot;vertical&quot;
+android:layout_marginStart=&quot;12dp&quot;&gt;
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Developed by Santanu Kumar&quot;
+android:textColor=&quot;#FFFFFF&quot;
+android:textSize=&quot;16sp&quot;
+android:textStyle=&quot;bold&quot; /&gt;
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;2330047&quot;
+android:textColor=&quot;#BBBBBB&quot;
+android:textSize=&quot;14sp&quot;/&gt;
+&lt;/LinearLayout&gt;
+&lt;/LinearLayout&gt;
+&lt;!-- Display Screen --&gt;
+&lt;TextView
+android:id=&quot;@+id/display&quot;
+android:layout_width=&quot;354dp&quot;
+android:layout_height=&quot;256dp&quot;
+android:layout_marginTop=&quot;20dp&quot;
+android:background=&quot;#2D2D44&quot;
+android:gravity=&quot;end|center_vertical&quot;
+android:padding=&quot;16dp&quot;
+android:text=&quot;0&quot;
+
+android:textColor=&quot;#FFD54F&quot;
+android:textSize=&quot;32sp&quot; /&gt;
+&lt;!-- Buttons Grid --&gt;
+&lt;GridLayout
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:layout_marginTop=&quot;20dp&quot;
+android:columnCount=&quot;4&quot;&gt;
+&lt;!-- Row 1 --&gt;
+&lt;Button
+android:id=&quot;@+id/btn7&quot;
+android:text=&quot;7&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btn8&quot;
+android:text=&quot;8&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btn9&quot;
+android:text=&quot;9&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btnDiv&quot;
+android:text=&quot;÷&quot; /&gt;
+&lt;!-- Row 2 --&gt;
+&lt;Button
+android:id=&quot;@+id/btn4&quot;
+android:text=&quot;4&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btn5&quot;
+android:text=&quot;5&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btn6&quot;
+android:text=&quot;6&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btnMul&quot;
+android:text=&quot;×&quot; /&gt;
+&lt;!-- Row 3 --&gt;
+&lt;Button
+android:id=&quot;@+id/btn1&quot;
+android:text=&quot;1&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btn2&quot;
+android:text=&quot;2&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btn3&quot;
+android:text=&quot;3&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btnSub&quot;
+
+android:text=&quot;-&quot; /&gt;
+&lt;!-- Row 4 --&gt;
+&lt;Button
+android:id=&quot;@+id/btn0&quot;
+android:text=&quot;0&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btnClear&quot;
+android:text=&quot;C&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btnEqual&quot;
+android:text=&quot;=&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btnAdd&quot;
+android:text=&quot;+&quot; /&gt;
+&lt;/GridLayout&gt;
+&lt;ImageView
+android:id=&quot;@+id/imageView2&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+app:srcCompat=&quot;@drawable/lovekiit&quot; /&gt;
+&lt;/LinearLayout&gt;
